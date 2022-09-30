@@ -7,9 +7,33 @@ Deep learning model for predicting dog breed using Tensor Flow Hub
 
 This is a beginner level project on TensorFlow and TensorFlow hub to understand the concepts and workflow of DeepLearning Models using Unstructured data.
 
-### Steps Involved
+### Workflow
 
-- 
+- Getting our data ready
+  - Import the data (Turning into Tensors)
+  - Create Train set and Validation Set
+  - Preprocess the images -> Turn them into Tensors
+  - Turning into Batches
+- Building a Deep Learning Model
+- Training a model on few sample
+- Evaluation and Making prediction on few samples
+- Visualize and Tests on few samples
+- Saving and Loading the Model (trained on few samples)
+- Training the model in full data
+- Testing and Making predictions on trained model with full data
+
+### Concepts
+
+- Google Colab, GPU usage
+- Convert Images into Tensors, covered in Preprocessing of Images
+- Batch & Unbatch data
+- Data Visualization 
+- Transfer Learning
+- Keras & its layers and executions
+- Tensorboard Callbacks
+- Early Stopping
+- Epochs
+- argmax(), argsort()
 
 ### Libraries & Workspace 
 
@@ -18,12 +42,18 @@ This is a beginner level project on TensorFlow and TensorFlow hub to understand 
 - Matplotlib
 - TensorFlow
 - TensorFlow Hub
-- TensorBoard Magic Function (for visualizing logs)
+- TensorBoard Magic Function (for visualizing performance)
 - Image Classfication Model ([mobilenet_v2](https://tfhub.dev/google/imagenet/mobilenet_v2_130_224/classification/5)) for Transfer Learning
 
 ### Dataset
 
 [Download from Kaggle](https://www.kaggle.com/competitions/dog-breed-identification)
+
+### Evaluation 
+
+Evaluation will be done on Multi Class Log Loss between the predicted probability and the observed target.
+
+[More Details...](https://www.kaggle.com/competitions/dog-breed-identification/overview/evaluation)
 
 ### To Do
 
