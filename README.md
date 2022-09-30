@@ -1,7 +1,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SaketMunda/dog-breed-prediction/blob/master/dog_vision.ipynb)
 
 # Dog Breed Prediction
-Deep learning model for predicting dog breed using Tensor Flow Hub
+Deep learning model for [Identification of Dog Breed](https://www.kaggle.com/competitions/dog-breed-identification/overview/description) using Tensor Flow Hub
 
 ## About
 
